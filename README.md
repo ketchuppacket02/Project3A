@@ -1,1 +1,1 @@
-# StockDataVisualizer
+# Project 3A

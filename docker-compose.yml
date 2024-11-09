@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  stock_app:
+    build: .
+    ports:
+      - "5001:5000"  # Update this as needed for your setup
+    environment:
+      - FLASK_ENV=development  # Enables Flask debug mode
+      - FLASK_APP=app.py  # Tells Flask which file to run
